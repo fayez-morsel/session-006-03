@@ -3,3 +3,82 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    height: 140vh;
+    width: 100vw;
+    position: relative;
+    background-color: #e8e6f1;
+}
+
+.container{
+    border: solid 1px black;
+    border-radius: 20px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+header{
+    display: flex;
+    gap: 100%;
+    margin: 3% 7%;
+    position: absolute;
+    width: 30vw;
+    z-index: 999;
+}
+
+.zero3{
+    position: absolute;
+    left: 85px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+}
+
+.airjordan{
+    position: absolute;
+    width: 1000px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 110px;
+}
+
+.shoe{
+    position: absolute;
+    width: 750px;
+    left: 50%;
+    top: 8%;
+    transform: translateX(-50%);
+    z-index: 888;
+}
+
+.Bubbles{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+}
+
+.Bubbles1{
+    position: absolute;
+    left: 20%;
+    top: 58%;
+    height: 180px;
+}
+
+.tree69{
+    position: absolute;
+    width: 100px;
+    top: 58%;
+    left: 62%;
+}
+
+.nikeicon{
+   width: 40px;
+   position: absolute;
+   top: 39%;
+   left: 87%;
+}
